@@ -2,6 +2,11 @@
 
 This is a small project making use of the [OpenAI API](https://beta.openai.com/docs/quickstart) so you can create fascinating dialogues and explore what it may be like if two famous figures (fictional or real, past or present) sit down and have a good-old chat. Instructions to get set up can be found below.
 
+All you need is:
+1. Two people/characters in mind
+2. A topic you would like them to talk about
+
+#### This is a WIP
 Please note that this code is currently a work-in-progress, and as such, it is not entirely robust or reliable yet.
 In the near future I would like to deploy this in a [Flask](https://flask.palletsprojects.com/en/2.0.x/) app, 
 perhaps on GitHub pages, so it can be used through a browser.
