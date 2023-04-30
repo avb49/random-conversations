@@ -13,9 +13,9 @@ def append_text_to_file(text: str, file_name: str):
 
 def main():
 
-    topic = "dogs"
-    character1_name = "Dolly Parton"
-    character2_name = "Harry Styles"
+    character1_name = input("Who would you like the first person to be?")
+    character2_name = input("Who would you like the second person to be?")
+    topic = input("What topic should they talk about?")
 
     character_1 = Character(
         name=character1_name,
@@ -54,4 +54,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
