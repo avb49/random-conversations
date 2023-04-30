@@ -33,4 +33,4 @@ This is an app using the [OpenAI API](https://beta.openai.com/docs/quickstart) a
    $ cp .env.example .env
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+7. Add your [OpenAI API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file. This will be used for the app to do text completions.
