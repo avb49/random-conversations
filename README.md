@@ -1,6 +1,6 @@
-# Random conversations - Python app
+# Random conversations
 
-This is an app using the [OpenAI API](https://beta.openai.com/docs/quickstart) and [Flask](https://flask.palletsprojects.com/en/2.0.x/) (not implemented yet) so you can create fascinating dialogues and explore what it might have been like if two famous figures (fictional or real) could have met and chatted. Follow the instructions below to get set up.
+This is an app using the [OpenAI API](https://beta.openai.com/docs/quickstart) and [Flask](https://flask.palletsprojects.com/en/2.0.x/) (TBC - not implemented yet) so you can create fascinating dialogues and explore what it might have been like if two famous figures (fictional or real) could have met and chatted. Follow the instructions below to get set up.
 
 ## Setup
 
@@ -34,10 +34,3 @@ This is an app using the [OpenAI API](https://beta.openai.com/docs/quickstart) a
    ```
 
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
-
-<>8. Run the app:
-<>
-<>   ```bash
-<>   $ flask run
-<>   ```
-<>You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context <>behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
