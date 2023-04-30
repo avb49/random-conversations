@@ -1,6 +1,6 @@
 # from flask import Flask, redirect, render_template, request, url_for
 
-from character import Character
+from classes.character import Character
 
 ITERATIONS = 6
 

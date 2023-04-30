@@ -13,7 +13,7 @@ perhaps on GitHub pages, so it can be used through a browser.
 
 ## Example conversations
 
-[Here's Leonardo da Vinci and Paris Hilton talking about money](conversation_example2.txt):
+[Here's Leonardo da Vinci and Paris Hilton talking about money](conversation_examples/conversation_example2.txt):
 
 >_Leonardo da Vinci: "Greetings fair Paris Hilton, I am Leonardo da Vinci, artist, inventor, and philosopher, and I must say that money is but a mere trifle in the grand scheme of life."_
 
@@ -29,7 +29,7 @@ perhaps on GitHub pages, so it can be used through a browser.
 
 or
 
-[Cristiano Ronaldo and Albert Einstein talking about cars](conversation_example.txt):
+[Cristiano Ronaldo and Albert Einstein talking about cars](conversation_examples/conversation_example.txt):
 >_Cristiano Ronaldo: Yo, it's CR7 here and I gotta say I love cars, they're like a work of art on wheels._
 
 >_Albert Einstein: Greetings, Cristiano Ronaldo. I am Albert Einstein, and while I am not particularly fond of cars, I do find the mechanics and physics behind them quite fascinating._
@@ -73,4 +73,11 @@ or
    $ cp .env.example .env
    ```
 
-7. Add your [OpenAI API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file. This will be used for the app to do text completions.
+7. Add your [OpenAI API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+
+
+8. Run the app
+
+   ```bash
+   $ python main.py
+   ```
