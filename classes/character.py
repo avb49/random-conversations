@@ -28,8 +28,7 @@ class Character:
         """Returns initial message/prompt for the given character""" 
         return (
             f"Imagine you are {self.name} and you are speaking to {speaking_to} "
-            f"about {self.topic}. Make sure to speak exactly in {self.name}'s tone of voice and character. Tell them your name "
-            f"and keep your intro to one sentence."
+            f"about {self.topic}. Speak in the style of {self.name}"
         )
     
     def get_response(self):
